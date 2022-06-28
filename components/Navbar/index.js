@@ -22,6 +22,9 @@ export default function Index() {
             Training Material UI
           </Typography>
           <Button color="inherit">
+            <Link href={{pathname:"/"}}><a className="nav-link">Home</a></Link>
+          </Button>
+          <Button color="inherit">
             <Link href={{pathname:"/fetch-data"}}><a className="nav-link">Fetch Data</a></Link>
           </Button>
         </Toolbar>

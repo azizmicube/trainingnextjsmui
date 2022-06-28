@@ -43,7 +43,7 @@ const FetchData = () => {
           })
     }, [])
     
-    if (!loading) return (
+    if (loading) return (
       <div className={classes.container}>
         <Grid container spacing={3}>
             {
